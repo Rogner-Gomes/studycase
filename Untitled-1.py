@@ -8,7 +8,7 @@ def solve_me_first(a, b, c):
     elif c == '/':
         res = a / b
     else:
-        res = 'VTNC então vaginildo!'
+        res = 'operação invalida!'
     return res
     # Hint: Type return a+b below
 
@@ -30,4 +30,3 @@ while contop == 'y':
     contop = input('continuar operação com o resiltado? y para sim e n para não. \n')
 #def funcao_teste():
 #class ClasseTeste():
-#'ele disse:"vai tomar no cu!".'
