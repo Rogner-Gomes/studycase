@@ -1,7 +1,7 @@
 nome = input('Digite seu nome:\n')
 idade = input('Digite sua idade:\n')
 
-if nome != '' or idade != '':
+if nome and idade != '':
     inv = nome[::-1]
     nustr = len(nome)
 
